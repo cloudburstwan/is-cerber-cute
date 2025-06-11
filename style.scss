@@ -1,5 +1,5 @@
 ﻿$primary: #2c86ff;
-$secondary: #fe9d6e;
+$secondary: #A550DF;
 
 @import "bootstrap-scss/bootstrap";
 
@@ -10,68 +10,4 @@ body {
 h1, h2 {
   margin: 0;
   padding: 0;
-}
-
-.countdown-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.countdown {
-  text-align: center !important;
-  font-size: 2rem;
-
-  display: flex !important;
-  flex-direction: column;
-  border-radius: 64px;
-  height: 258px;
-  width: 700px;
-  align-items: center;
-
-  transition: top 1s cubic-bezier(0, 0.33, 0, 1),
-  left 1s cubic-bezier(0, 0.33, 0, 1),
-  width 1s cubic-bezier(0, 0.33, 0, 1),
-  height 1s cubic-bezier(0, 0.33, 0, 1),
-  border-radius 1s cubic-bezier(0, 0.33, 0, 1),
-  z-index 1s cubic-bezier(0, 0.33, 0, 1);
-  z-index: 99;
-}
-
-.countdown .timer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.countdown .timer .section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.countdown .timer .section .time {
-  font-size: 6rem;
-  width: 100px;
-
-  transition: width 1s cubic-bezier(0, 0.33, 0, 1), font-size 1s cubic-bezier(0, 0.33, 0, 1);
-}
-
-.countdown .timer .section .name {
-  position: relative;
-  top: -15px;
-
-  transition: font-size 1s cubic-bezier(0, 0.33, 0, 1);
-}
-
-.countdown img {
-  position: relative;
-  top: -15px;
-}
-
-.bg-dark {
-  background-color: #A550DF !important;
-  filter: drop-shadow(2px 4px 6px black);
-  //-webkit-text-stroke: 1px black;
 }
